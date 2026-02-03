@@ -3,9 +3,15 @@
   "version": "1.0.5",
   "description": "A comprehensive utility library for common JavaScript operations",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "node index.js",
+    "benchmark": "node benchmark/index.js",
+    "example:basic": "node examples/basic-usage.js",
+    "example:advanced": "node examples/advanced-usage.js"
   },
   "keywords": [
     "utility",
@@ -17,12 +23,25 @@
     "array",
     "math",
     "validation",
-    "color"
+    "color",
+    "date",
+    "object",
+    "function"
   ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "jest": "^30.2.0"
+  },
+  "files": [
+    "lib/",
+    "types/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
