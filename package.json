@@ -1,0 +1,28 @@
+{
+  "name": "quick-utils-lib",
+  "version": "1.0.4",
+  "description": "A comprehensive utility library for common JavaScript operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "utility",
+    "helpers",
+    "javascript",
+    "functions",
+    "tools",
+    "string",
+    "array",
+    "math",
+    "validation",
+    "color"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
