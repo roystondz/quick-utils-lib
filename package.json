@@ -1,6 +1,6 @@
 {
   "name": "quick-utils-lib",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A comprehensive utility library for common JavaScript operations",
   "main": "index.js",
   "types": "types/index.d.ts",
